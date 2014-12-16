@@ -1,0 +1,41 @@
+.custom-select-wrapper
+
+  .custom-select
+    color #666
+    display inline-block
+    font-size 14px
+    position relative
+
+    .custom-value
+      background linear-gradient(#FEFEFE, #E9E9E9)
+      border 1px solid #CCC
+      cursor pointer
+
+      &:hover
+        background linear-gradient(#FEFEFE, #DDD)
+
+      .display-label
+        font-size 13px
+        float left
+        margin-right 10px
+        white-space nowrap
+        padding 7px 30px 7px 12px
+        border-right 1px solid #999
+
+      i
+        color #000
+        float right
+        font-size 12px
+        padding-right 9px
+        padding-top 8px
+
+    select
+      position absolute
+      top 0
+      left 0
+      right 0
+      bottom 0
+      background none
+      cursor pointer
+      opacity 0
+      width 100%
