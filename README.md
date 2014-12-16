@@ -1,4 +1,4 @@
-components
+Components
 ==========
 
-Reusable components for various projects
+Some reusable bits and pieces for the taking.
