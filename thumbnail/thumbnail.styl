@@ -1,0 +1,31 @@
+@require '../../common/mixins.styl';
+@require 'nib';
+
+.thumbnail
+  display inline-block
+  position relative
+  overflow: hidden
+  margin-right 5px
+
+  &:hover
+    .delete
+      top 0
+      right 0
+
+      &:hover
+        background-color rmtc-dark-orange
+
+
+  .image
+    width 100px
+    height 100px
+    display block;
+
+  .delete
+    absolute top -22px right -22px
+    transition top .3s, right .3s
+    color #f9f9f9
+    padding 2px 5px
+    background-color rmtc-orange
+    box-shadow -2px 2px 4px #222
+    cursor pointer
