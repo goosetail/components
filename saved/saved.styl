@@ -1,0 +1,22 @@
+@require '../../common/mixins.styl';
+@require 'nib';
+
+.saved
+  position relative
+  display inline-block
+
+  .fa.fa-check
+    absolute top 6px right -25px
+    font-size 18px
+    color #66D584
+    opacity 0
+    transition opacity .5s ease
+
+    &.fading
+      opacity 1
+      transition opacity .5s ease
+
+    &.left
+      right auto
+      left -25px
+
