@@ -1,0 +1,7 @@
+div
+   .form-group.col-sm-6
+      label(for="country") Country
+      select.form-control(id="country", ng-model='model.country', ng-options='country.country as country.country for country in countries')
+   .form-group.col-sm-3
+      label(for="state") State
+      select.form-control(id="state", ng-model='model.state', ng-options='state for state in getStates()')
