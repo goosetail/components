@@ -20,7 +20,7 @@ APP_MODULE
 
 		$scope.getStates = function () {
 
-			if ($scope.model && $scope.model.country) {
+			if ($scope.model && $scope.model.country && $scope.countries) {
 				return _.find($scope.countries, {country: $scope.model.country}).states;
 			}
 
